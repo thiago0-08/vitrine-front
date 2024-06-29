@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'https://localhost:7066', 
+  baseURL: 'https://ornate-lily-52a66d.netlify.app/', 
   headers: {
     'Content-Type': 'application/json'
   }
