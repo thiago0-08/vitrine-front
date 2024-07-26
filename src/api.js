@@ -25,3 +25,4 @@ export default {
     return apiClient.get(`/produtosPorCategoria/${idCategoria}`);
   }
 };
+// codigo corrigido
