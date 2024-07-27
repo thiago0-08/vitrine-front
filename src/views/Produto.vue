@@ -14,9 +14,9 @@
             <p><strong class="titulo">Descrição</strong></p>
             {{ produto.descricao }}
             <ul class="list-unstyled">
-              <li><strong>Material da Palmilha:</strong> EVA</li>
+              <!--<li><strong>Material da Palmilha:</strong> EVA</li>
               <li><strong>Material da Sola:</strong> Borracha</li>
-              <li><strong>Características:</strong> Ajustável, Respirável</li>
+              <li><strong>Características:</strong> Ajustável, Respirável</li> -->
             </ul>
             <h5>Selecione o tamanho:</h5>
             <div class="btn-group mb-3" role="group" aria-label="Selecione o tamanho" id="sizes-button">
