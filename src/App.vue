@@ -38,7 +38,7 @@ onMounted(() => {
               <RouterLink class="nav-link " aria-current="page" to="/">Início</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/sobre">Sobre</RouterLink>
+              <RouterLink class="nav-link" to="#">Sobre</RouterLink>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -58,7 +58,7 @@ onMounted(() => {
             </li>
             
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/sobre">Promoção</RouterLink>
+              <RouterLink class="nav-link" to="#">Promoção</RouterLink>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -67,13 +67,13 @@ onMounted(() => {
             <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"
                 style="align-items: center; justify-content: center;"> </i></button>
           </form>
-          <RouterLink to="/favoritos" class="icon-link" style="margin-left: 10px;">
+          <RouterLink to="#" class="icon-link" style="margin-left: 10px;">
             <i class="bi bi-heart"></i>
           </RouterLink>
           <RouterLink to="/profile" class="icon-link" style="margin-left: 15px;">
             <i class="bi bi-person"></i>
           </RouterLink>
-          <RouterLink to="/carrinho" class="icon-link" style="margin-left: 15px;">
+          <RouterLink to="#" class="icon-link" style="margin-left: 15px;">
             <i class="bi bi-cart2"></i>
           </RouterLink>
         </div>
